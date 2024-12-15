@@ -3,8 +3,9 @@ Back service:
 Content of the “back.py” file can be found in this repository. 
 
 Explanation of what back.py does:
-“back.py” is a python based code for an application that will serve as an API service with 2 routes/paths and will listen on port 3000: /api/v1/get-quote" and "/api/v1/set-quote"."/api/v1/get-quote" will return a random quote from a database when using a GET request "/api/v1/set-quote" will add a quote to a database when using a  POST request. The database definition is defined under the “app.config” directive in the back.py file (line 11) (it has been already set so no need to change it).
-
+“back.py” is a python based code for an application that will serve as an API service.
+With 2 routes/paths and will listen on port 3000: /api/v1/get-quote" and "/api/v1/set-quote"."/api/v1/get-quote" will return a random quote from a database when using a GET request "/api/v1/set-quote" will add a quote to a database when using a  POST request. 
+The database definition is defined under the “app.config” directive in the back.py file (line 11) (it has been already set so no need to change it).
 
 You need to write a Dockerfile for back service yourself:
 Base image should be python:3.6.
